@@ -48,12 +48,22 @@ function Todos() {
       };
       return axios(config);
 }
-const [sort,setSort]=useState({
-    sortMethod: null
-  })
+const [sort,setSort]=useState("ASC")
 
   const handleSort=(value)=>{
-    setSort({sortMethod: value})
+    // setSort({sortMethod: value}
+    if(sort === "ASC"){
+        const sorted = [...todos].sort((a,b)=>
+        {return a[value] > b[value]? 1: -1})
+        setTodos(sorted)
+        setSort("DSC")
+    }
+    if(sort === "ASC"){
+        const sorted = [...todos].sort((a,b)=>
+        {return a[value] < b[value]? 1: -1})
+        setTodos(sorted)
+        setSort("ASC")
+    }
   }
   
   if (isLoading) {
@@ -62,8 +72,8 @@ const [sort,setSort]=useState({
   return (
       <div>
           <div>
-         <button onClick={()=>handleSort(0)}>Sort</button>
-         <button onClick={()=>handleSort(null)}>All</button>
+         <button onClick={()=>handleSort()}>Sort</button>
+         
        </div>
        
        
