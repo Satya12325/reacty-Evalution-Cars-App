@@ -1,0 +1,47 @@
+{
+    "carDetails":[
+        {
+        "id": 1,
+"name": "Suzuki Desire",
+"type": "Hatchback",
+"year": 2010,
+"price": 800000,
+"image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/45691/marutisuzuki-dzire-right-front-three-quarter8.jpeg?q=85"
+        },
+        {
+            "id": 2,
+    "name": "Renult Duster",
+    "type": "SUV",
+    "year": 2012,
+    "price": 1000000,
+    "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/47028/duster-exterior-right-front-three-quarter-4.jpeg?q=85"
+            },
+            {
+                "id": 3,
+        "name": "TOYOTA",
+        "type": "SUV",
+        "year": 2014,
+        "price": 180000,
+        "image": "https://imgd.aeplcdn.com/227x128/n/cw/ec/44709/fortuner-exterior-right-front-three-quarter-19.jpeg?q=85"
+                },
+                {
+                    "id": 4,
+            "name": "HONDA",
+            "type": "SUV",
+            "year": 2014,
+            "price": 800000,
+            "image": "https://imgd.aeplcdn.com/227x128/n/cw/ec/44709/fortuner-exterior-right-front-three-quarter-19.jpeg?q=85"
+                    },
+                    {
+                        "id": 5,
+                "name": "MAHENDRA",
+                "type": "SUV",
+                "year": 2014,
+                "price": 8000000,
+                "image": "https://imgd.aeplcdn.com/227x128/n/cw/ec/44709/fortuner-exterior-right-front-three-quarter-19.jpeg?q=85"
+                        }
+
+    ],
+    "orders": [
+]
+}
